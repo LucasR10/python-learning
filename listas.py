@@ -7,9 +7,13 @@ if "apple" in  hislist:
     hislist.append("nova fruta")
     print( "Yes sim en lista" );
 
-
+#Print the number of items in the list:
 print( len(hislist) )
 
+#Using the append() method to append an item:
+hislist.append("nova fruta");
+
+#Insert an item as the second position:
 hislist.insert(1, "orange")
 print(hislist)
 
@@ -26,7 +30,7 @@ hislist.pop()
 print(hislist)
 
 #The del keyword removes the specified index:
-del hislist[3];
+del hislist[1];
 print(hislist)
 
 #The del keyword can also delete the list completely:
